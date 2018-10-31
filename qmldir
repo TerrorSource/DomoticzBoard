@@ -1,0 +1,3 @@
+module apps.DomoticzBoard
+domoticzScreen 1.0 DomoticzScreen.qml
+domoticzMenu  1.0 DomoticzMenu.qml

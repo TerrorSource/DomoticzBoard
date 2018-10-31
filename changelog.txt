@@ -1,0 +1,25 @@
+v0.7.7
+added switch configuration in settings screen
+
+v0.7.6
+fixed info/edit images in DB-Settings
+
+v0.7.5
+Moved SysTray to top of menu
+
+v0.7.4
+alligned SysTray option
+
+v0.7.3
+Created SysTray option
+
+v0.7.2
+created link for connectionpath between Menu and App
+Removed manual server configuration
+
+v0.7.1
+created link for connectionpath between Menu and Screen
+
+v0.7.0
+Created DB-Settings menu item for saving IP-port via Toon screen instead of manually editing the App.qml file
+Auto-saving creates serverip.txt in the DomoticzBoard app folder
