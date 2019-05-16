@@ -1,3 +1,32 @@
+v0.9.0
+Ready for ToonStore!
+
+v0.8.9
+renamed Menu.qml to Settings.qml
+implemented Toon2 resolution
+hided scene3, still able to show(edit qml file manually)
+changed drawables + cleaned icons
+
+v0.8.8
+fixed scene numbering
+removed console logging
+
+v0.8.5
+removed more unnecessary code 
+
+v0.8.3
+removed unnecessary code from Screen.qml
+fixed few coding errors
+
+v0.8.2
+added idx3-idx4-idx5
+edited marges of systray icon switch
+edited info button systray icon
+
+v0.8.0
+fw5 compatible
+idx1 and id2 manually configurable
+
 v0.7.7
 added switch configuration in settings screen
 
