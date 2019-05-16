@@ -27,6 +27,7 @@ Screen {
 	function saveIpadres(text) {
 		if (text) {
 			ipadresLabel.inputText = text;
+			app.ipadres = text;
 			savepath();
 		}
 	}
@@ -34,6 +35,7 @@ Screen {
 	function savePoortnummer(text) {
 		if (text) {
 			poortnummerLabel.inputText = text;
+			app.poortnummer = text;
 			savepath();
 		}
 	}
