@@ -16,7 +16,7 @@ Screen {
 		showDBIconToggle.isSwitchedOn = app.showDBIcon;
 		ipadresLabel.inputText = app.ipadres;
 		poortnummerLabel.inputText = app.poortnummer;
-		console.log("********** Domoticz Menu ipadres,poortnummer:"  + app.ipadres + "'" + app.poortnummer);
+		console.log("********** Domoticz Menu ipadres,poortnummer:"  + app.ipadres + ":" + app.poortnummer);
 		confswitch1Label.inputText = app.switch1idx;
 		confswitch2Label.inputText = app.switch2idx;
 		confswitch3Label.inputText = app.switch3idx;
@@ -49,6 +49,7 @@ Screen {
 			}
 		doc2.open("PUT", "file:///HCBv2/qml/apps/domoticzBoard/serverip.txt");
 		doc2.send(str);
+		app.Component.onCompleted();
 	}
 	
 	// switch save to file
@@ -97,6 +98,7 @@ Screen {
 			}
 		doc1.open("PUT", "file:///HCBv2/qml/apps/domoticzBoard/switch.txt");
 		doc1.send(str);
+		app.Component.onCompleted();
 	}
 	
 	Text {

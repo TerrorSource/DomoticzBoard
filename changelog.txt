@@ -1,3 +1,7 @@
+v0.9.1
+fixed bug with saving ip+port
+fixed bug with automatic reloading after ip+port changed
+
 v0.9.0
 Ready for ToonStore!
 
