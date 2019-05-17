@@ -1,5 +1,7 @@
 # DomoticzBoard
 
+Domoticaforum.eu: https://www.domoticaforum.eu/viewtopic.php?f=99&t=11687
+
 DomoticzBoard is an Qt app to control Domoticz on a Toon Thermostat.
 
 Still a work in progress.
